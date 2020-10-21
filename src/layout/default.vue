@@ -1,15 +1,13 @@
 <template>
-  <div id="nav">
+  <div>
     <router-view />
-    <!-- <van-tabbar route>
+    <van-tabbar route>
       <van-tabbar-item replace to="/" icon="home-o">
         首页
       </van-tabbar-item>
       <van-tabbar-item replace to="/about" icon="smile-o">
         关于我们
       </van-tabbar-item>
-    </van-tabbar> -->
+    </van-tabbar>
   </div>
 </template>
-
-<style lang="scss"></style>
